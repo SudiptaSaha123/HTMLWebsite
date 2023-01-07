@@ -5,24 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tribute Page to Linus Torvalds</title>
+    <link rel="icon" type="image/x-icon" href="/image.jpeg">
 
     <style>
         html{
             scroll-behavior: smooth;
         }
+        /* aside{
+            float: right;
+            width: 40%;
+            background-color: aquamarine;
+        } */
     </style>
 </head>
 <body>
-    <h1>Linus Torvalds</h1>
-    <p>The Creator of Linux</p>
 
-    <a href="#resources">Go to resources</a>
+    <header>
+
+        <h1>Linus Torvalds</h1>
+        <p>The Creator of Linux</p>
+
+    </header>
+
+    <nav>
+    
+        <a href="#resources">Go to Resources</a>
+        <br>
+        <a href="#biography">Go to Biography</a>
+        <br>
+        <a href="#achievements">Go to Achievements</a>
+
+    </nav>
+
     <figure>
     <img src="/image.jpeg" alt="Image" height="280px" title="Linus Torvalds">
     <figcaption>A photograph of Linus Torvalds</figcaption>
     </figure>
 
-    <h2>Biography</h2>
+    <section>
+
+    <h2 id="biography">Biography</h2>
 
     <p>
         Linus Torvalds is a Finnish-American software engineer who is the creator and 
@@ -34,7 +56,23 @@
         widely used kernels in the world, powering everything trom smartphones to supercomputers
     </p>
 
-    <h2>Achievements</h2>
+    </section>
+
+    <!-- <aside>
+        <p>
+            Linus Torvalds is a Finnish-American software engineer who is the creator and 
+            principal developer of the Linux kernel, which is the kernel for a number of 
+            operating systems. He also created the version control system Git. Torvalds 
+            was born on December 28, 1969 in Helsinki, Finland. He studied computer 
+            science at the University of Helsinki, and he developed the Linux kernel as a 
+            student project in 1991. Since then, the Linux kernel has become one of the most 
+            widely used kernels in the world, powering everything trom smartphones to supercomputers
+        </p>
+    </aside> -->
+
+    <section>
+
+    <h2 id="achievements">Achievements</h2>
     
     <ul>
         <li><strong>1991</strong> - Created the Linux kernel and the version control system Git</li>
@@ -57,6 +95,10 @@
     </cite>
     </blockquote>
 
+    </section>
+
+    <section>
+
     <h2 id="resources">Resources</h2>
     <p>Learn more about Linus Torvalds and his work:</p>
     <ul>
@@ -70,5 +112,14 @@
             <a href="">The Linux Kernel Archives</a>
         </li>
     </ul>
+
+    </section>
+
+    <!-- <footer>
+
+        <p>This is footer</p>
+
+    </footer> -->
+
 </body>
 </html>
